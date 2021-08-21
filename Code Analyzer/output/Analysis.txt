@@ -1,0 +1,342 @@
+Analysis completed successfully!
+
+Number of Java files: 22
+Number of java classes: 23
+Total number of fields: 42
+Total number of private fields: 28
+Total number of public fields: 14
+Total number of methods: 42
+Total number of private methods: 28
+Total number of public methods: 14
+
+Java files names:
+	Client
+	MainGUI
+	Server
+	Player
+	PlayerDB
+	CreateAccount
+	Login
+	Menu
+	Scoreboard
+	Bishop
+	Board
+	King
+	Knight
+	Pawn
+	Piece
+	Queen
+	Rook
+	AppFrame
+	Chess
+	Main
+	NewJButton
+	Splash
+
+Java classes Fields:
+	Class name: Client
+		Number of fields: 4
+		Class fields:
+		socket (Modifier = public)
+		in
+		out
+		userName
+	Class name: MainGUI
+		Number of fields: 4
+		Class fields:
+		newFrame
+		sendMessage
+		messageBox
+		chatBox
+	Class name: sendMessageButtonListener
+		Number of fields: 0
+		Class fields:
+		Class name: Server
+		Number of fields: 5
+		Class fields:
+		serverSocket
+		socket
+		in
+		out
+		userName
+	Class name: Player
+		Number of fields: 3
+		Class fields:
+		name
+		pass
+		score
+	Class name: PlayerDB
+		Number of fields: 2
+		Class fields:
+		connection (Modifier = private)
+		preparedStatement (Modifier = private)
+	Class name: CreateAccount
+		Number of fields: 2
+		Class fields:
+		imageView (Modifier = private)
+		CAImg (Modifier = private)
+	Class name: Login
+		Number of fields: 5
+		Class fields:
+		imageView (Modifier = private)
+		LImg (Modifier = private)
+		chatName (Modifier = public)
+		txtFld1 (Modifier = public)
+		txtFld2 (Modifier = public)
+	Class name: Menu
+		Number of fields: 2
+		Class fields:
+		imageView (Modifier = private)
+		MenuImg (Modifier = private)
+	Class name: Scoreboard
+		Number of fields: 2
+		Class fields:
+		label1 (Modifier = public)
+		label2 (Modifier = public)
+	Class name: Bishop
+		Number of fields: 0
+		Class fields:
+		Class name: Board
+		Number of fields: 3
+		Class fields:
+		whitePieces (Modifier = private)
+		blackPieces (Modifier = private)
+		allPieces (Modifier = private)
+	Class name: King
+		Number of fields: 0
+		Class fields:
+		Class name: Knight
+		Number of fields: 0
+		Class fields:
+		Class name: Pawn
+		Number of fields: 1
+		Class fields:
+		firstMove (Modifier = private)
+	Class name: Piece
+		Number of fields: 4
+		Class fields:
+		y (Modifier = public)
+		x (Modifier = public)
+		color (Modifier = public)
+		name (Modifier = public)
+	Class name: Queen
+		Number of fields: 0
+		Class fields:
+		Class name: Rook
+		Number of fields: 0
+		Class fields:
+		Class name: AppFrame
+		Number of fields: 0
+		Class fields:
+		Class name: Chess
+		Number of fields: 16
+		Class fields:
+		username (Modifier = public)
+		socket (Modifier = private)
+		input (Modifier = private)
+		output (Modifier = private)
+		board (Modifier = private)
+		me (Modifier = private)
+		color (Modifier = private)
+		isSelected (Modifier = private)
+		inMove (Modifier = private)
+		frame (Modifier = private)
+		btns (Modifier = private)
+		whiteLost (Modifier = private)
+		blackLost (Modifier = private)
+		caption (Modifier = private)
+		isServer (Modifier = public)
+		players (Modifier = public)
+	Class name: Main
+		Number of fields: 0
+		Class fields:
+		Class name: NewJButton
+		Number of fields: 3
+		Class fields:
+		piece (Modifier = private)
+		X (Modifier = private)
+		Y (Modifier = private)
+	Class name: Splash
+		Number of fields: 1
+		Class fields:
+		ServerIP (Modifier = public)
+	
+
+Java classes Methods:
+	Class name: Client
+		Number of methods: 1
+		Class methods:
+		main (Modifier = public)
+	Class name: MainGUI
+		Number of methods: 2
+		Class methods:
+		main (Modifier = public)
+		display
+	Class name: sendMessageButtonListener
+		Number of methods: 1
+		Class methods:
+		actionPerformed (Modifier = public)
+	Class name: Server
+		Number of methods: 1
+		Class methods:
+		main (Modifier = public)
+	Class name: Player
+		Number of methods: 6
+		Class methods:
+		getName (Modifier = public)
+		getPass (Modifier = public)
+		getScore (Modifier = public)
+		setName (Modifier = public)
+		setPass (Modifier = public)
+		setScore (Modifier = public)
+	Class name: PlayerDB
+		Number of methods: 10
+		Class methods:
+		getRanking (Modifier = public)
+		getPlayer (Modifier = public)
+		addPlayer (Modifier = public)
+		getPlayer (Modifier = public)
+		getScore (Modifier = public)
+		updateScore (Modifier = public)
+		getPlayer (Modifier = public)
+		changePass (Modifier = public)
+		deletePlayer (Modifier = public)
+		close (Modifier = public)
+	Class name: CreateAccount
+		Number of methods: 4
+		Class methods:
+		start
+		initUI (Modifier = private)
+		loadImage (Modifier = private)
+		main (Modifier = public)
+	Class name: Login
+		Number of methods: 4
+		Class methods:
+		start
+		initUI (Modifier = private)
+		loadImage (Modifier = private)
+		main (Modifier = public)
+	Class name: Menu
+		Number of methods: 4
+		Class methods:
+		start
+		initUI (Modifier = private)
+		loadImage (Modifier = private)
+		main (Modifier = public)
+	Class name: Scoreboard
+		Number of methods: 3
+		Class methods:
+		start
+		initUI (Modifier = public)
+		main (Modifier = public)
+	Class name: Bishop
+		Number of methods: 4
+		Class methods:
+		canMove (Modifier = public)
+		canMove (Modifier = public)
+		checkWay (Modifier = public)
+		checkWay (Modifier = public)
+	Class name: Board
+		Number of methods: 17
+		Class methods:
+		getPieces (Modifier = public)
+		initPieces (Modifier = public)
+		isTakenByWhite (Modifier = public)
+		isTakenByBlack (Modifier = public)
+		isTaken (Modifier = public)
+		takenByWhite (Modifier = public)
+		takenByBlack (Modifier = public)
+		takenBy (Modifier = public)
+		printBoard (Modifier = public)
+		move (Modifier = public)
+		virtualCheck (Modifier = public)
+		kingCheck (Modifier = public)
+		kingMate (Modifier = private)
+		checkMate (Modifier = public)
+		canGo (Modifier = public)
+		canGo (Modifier = public)
+		canAttack (Modifier = public)
+	Class name: King
+		Number of methods: 2
+		Class methods:
+		canMove (Modifier = public)
+		checkWay (Modifier = public)
+	Class name: Knight
+		Number of methods: 2
+		Class methods:
+		canMove (Modifier = public)
+		checkWay (Modifier = public)
+	Class name: Pawn
+		Number of methods: 5
+		Class methods:
+		setFirstMove (Modifier = public)
+		getFirstMove (Modifier = public)
+		canMove (Modifier = public)
+		crossMove
+		checkWay (Modifier = public)
+	Class name: Piece
+		Number of methods: 12
+		Class methods:
+		setY (Modifier = public)
+		setX (Modifier = public)
+		setName (Modifier = public)
+		setColor (Modifier = public)
+		getY (Modifier = public)
+		getX (Modifier = public)
+		getName (Modifier = public)
+		getColor (Modifier = public)
+		checkTaken (Modifier = public)
+		crossMove (Modifier = public)
+		canMove (Modifier = public)
+		checkWay (Modifier = public)
+	Class name: Queen
+		Number of methods: 2
+		Class methods:
+		canMove (Modifier = public)
+		checkWay (Modifier = public)
+	Class name: Rook
+		Number of methods: 4
+		Class methods:
+		canMove (Modifier = public)
+		canMove (Modifier = public)
+		checkWay (Modifier = public)
+		checkWay (Modifier = public)
+	Class name: AppFrame
+		Number of methods: 7
+		Class methods:
+		windowOpened
+		windowClosing
+		windowClosed
+		windowIconified
+		windowDeiconified
+		windowActivated
+		windowDeactivated
+	Class name: Chess
+		Number of methods: 10
+		Class methods:
+		run (Modifier = public)
+		mouseClicked
+		repaint (Modifier = public)
+		checkMate (Modifier = public)
+		killWhite (Modifier = public)
+		killBlack (Modifier = public)
+		mousePressed
+		mouseReleased
+		mouseEntered
+		mouseExited
+	Class name: Main
+		Number of methods: 1
+		Class methods:
+		main (Modifier = public)
+	Class name: NewJButton
+		Number of methods: 4
+		Class methods:
+		getPiece (Modifier = public)
+		setPiece (Modifier = public)
+		getNewX (Modifier = public)
+		getNewY (Modifier = public)
+	Class name: Splash
+		Number of methods: 1
+		Class methods:
+		run (Modifier = public)
+	
